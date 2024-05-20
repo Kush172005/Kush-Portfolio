@@ -5,7 +5,7 @@ project1.addEventListener('click', () => {
 
 const project2 = document.querySelector('.project2');
 project2.addEventListener('click', () => {
-    window.open("https://kush172005.github.io/2048_Game/", "_blank");
+    window.open("https://kush172005.github.io/TIc-Tac-Toe-Game/", "_blank");
 });
 
 const project3 = document.querySelector('.project3');
