@@ -389,6 +389,7 @@ profile-photo .img {
     text-align: center;
     flex-basis: 32%;
     transition: .3s;
+    margin-top: 1rem;
 }
 
 .project i {
