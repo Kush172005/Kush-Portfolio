@@ -13,6 +13,21 @@ project3.addEventListener('click', () => {
     window.open("https://kush172005.github.io/Shopping-Cart/", "_blank");
 });
 
+const project4 = document.querySelector('.project4');
+project4.addEventListener('click', () => {
+    window.open("https://kushjiosaavnendsem.netlify.app/", "_blank");
+});
+
+const project5 = document.querySelector('.project5');
+project5.addEventListener('click', () => {
+    window.open("https://invee-sync-project.netlify.app/", "_blank");
+});
+
+const project6 = document.querySelector('.project6');
+project6.addEventListener('click', () => {
+    window.open("https://kush172005.github.io/Random_Number_Generator/", "_blank");
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     // Sticky header
     window.addEventListener("scroll", function () {
@@ -26,31 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
       updateActiveSection();
     });
   
-    document.querySelectorAll(".header ul li a").forEach(function (link) {
-      link.addEventListener("click", function (e) {
-        e.preventDefault();
-  
-        var target = this.getAttribute("href");
-        var targetElement = document.querySelector(target);
-  
-        if (targetElement.classList.contains("active-section")) {
-          return;
-        }
-  
-        var scrollOptions = {
-          top: target === "#home" ? 0 : targetElement.offsetTop - 40,
-          behavior: "smooth"
-        };
-  
-        window.scrollTo(scrollOptions);
-  
-        document.querySelectorAll(".header ul li a").forEach(function (a) {
-          a.classList.remove("active");
-        });
-  
-        this.classList.add("active");
-      });
-    });
   
     // Initial content revealing
     ScrollReveal({
@@ -79,6 +69,57 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   
+  
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   function updateActiveSection() {
     var scrollPosition = window.scrollY;
   
@@ -108,4 +149,35 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+
+
+
+
+
+
+
+    // document.querySelectorAll(".header ul li a").forEach(function (link) {
+    //   link.addEventListener("click", function (e) {
+    //     e.preventDefault();
   
+    //     var target = this.getAttribute("href");
+    //     var targetElement = document.querySelector(target);
+  
+    //     if (targetElement.classList.contains("active-section")) {
+    //       return;
+    //     }
+  
+    //     var scrollOptions = {
+    //       top: target === "#home" ? 0 : targetElement.offsetTop - 40,
+    //       behavior: "smooth"
+    //     };
+  
+    //     window.scrollTo(scrollOptions);
+  
+    //     document.querySelectorAll(".header ul li a").forEach(function (a) {
+    //       a.classList.remove("active");
+    //     });
+  
+    //     this.classList.add("active");
+    //   });
+    // });  
